@@ -27,6 +27,7 @@
                 var map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 11,
                     center: {lat: 41.876, lng: -87.624},
+		    disableDefaultUI: true,
                     styles: [
                             {"featureType":"administrative.locality","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":"13"}]},
                              {"featureType":"landscape","elementType":"all","stylers":[{"color":"#efebe2"}]},
